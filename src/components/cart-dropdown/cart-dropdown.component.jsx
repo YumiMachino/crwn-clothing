@@ -10,7 +10,6 @@ import { toggleCartHidden } from '../../redux/cart/cart.actions';
 import CustomButton from '../custom-button/custom-button.component';
 
 import './cart-dropdown.styles.scss';
-import { fetchWrapper } from 'workbox-core/_private';
 
 const CartDropdown = ({ cartItems, history, dispatch }) => (
   <div className='cart-dropdown'>
